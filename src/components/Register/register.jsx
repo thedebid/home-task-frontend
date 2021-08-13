@@ -72,9 +72,9 @@ function Register() {
             </button>
           </div>
           <div className="clearfix">
-            <a href="#" className="pull-right">
+            {/* <a href="#" className="pull-right">
               Forgot Password?
-            </a>
+            </a> */}
           </div>
         </form>
         <p className="text-center">

@@ -1,11 +1,11 @@
-import react, { useState } from "react";
+import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import httpClient from "./../../utils/httpClient";
 import { toast } from "material-react-toastify";
 
 function AddProduct() {
   let history = useHistory();
-  const [filesToUpload, setFilesToUpload] = useState([]);
+  const [filesToUpload] = useState([]);
   const [product, setProduct] = useState({
     title: "",
     description: "",
